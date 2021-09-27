@@ -135,9 +135,9 @@ class App {
         // Handlin clicks on map
         this.#map.on('click', this.#showForm.bind(this));
 
-        /* this.#workouts.forEach(work => {
+        this.#workouts.forEach(work => {
             this.#renderWorkoutMarker(work);
-        }); */
+        });
     }
 
     #showForm(mapE) {
